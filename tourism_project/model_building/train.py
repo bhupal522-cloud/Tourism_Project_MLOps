@@ -22,10 +22,10 @@ mlflow.set_experiment("tourism_project_experiment")
 api = HfApi()
 
 
-Xtrain_path = "hf://datasets/bhupla522/Tourism-Customer-Prediction/Xtrain.csv"
-Xtest_path = "hf://datasets/bhupla522/Tourism-Customer-Prediction/Xtest.csv"
-ytrain_path = "hf://datasets/bhupla522/Tourism-Customer-Prediction/ytrain.csv"
-ytest_path = "hf://datasets/bhupla522/Tourism-Customer-Prediction/ytest.csv"
+Xtrain_path = "hf://datasets/bhupal522/Tourism-Customer-Prediction/Xtrain.csv"
+Xtest_path = "hf://datasets/bhupal522/Tourism-Customer-Prediction/Xtest.csv"
+ytrain_path = "hf://datasets/bhupal522/Tourism-Customer-Prediction/ytrain.csv"
+ytest_path = "hf://datasets/bhupal522/Tourism-Customer-Prediction/ytest.csv"
 
 Xtrain = pd.read_csv(Xtrain_path)
 Xtest = pd.read_csv(Xtest_path)
